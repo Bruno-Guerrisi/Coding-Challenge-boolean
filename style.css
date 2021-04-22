@@ -1,0 +1,85 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Noto Sans', Verdana, sans-serif;
+}
+
+.blocco{
+  width: 70%;
+  height: auto;
+  background-color: rgba(8, 8, 8, 0.6);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.blocco, nav{
+  box-sizing: border-box;
+}
+
+.blocco, main{
+  margin: auto;
+  margin-top: 10px;
+}
+
+img{
+  width: 200px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, nav{
+  text-align: center;
+}
+
+h1, section{
+  margin:5px;
+}
+
+h1{
+  font-size: 27px;
+  color: #00dd00;
+}
+
+h2{
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+}
+
+h2, .via_distanza{
+  color: white;
+  margin: 2px;
+}
+
+nav, main{
+  width: 90%;
+}
+
+nav{
+  margin: auto;
+  background-color: #00dd00;
+  padding: 5px;
+}
+
+/* barre caricamento */
+.barra1, .barra2, .barra3{
+  height: 25px;
+  border-radius: 7px;
+}
+
+.barra1{
+  width: 300px;
+  background-color: orange;
+}
+
+.barra2{
+  width: 500px;
+  background-color: rgb(40, 136, 25);
+}
+
+.barra3{
+  width: 150px;
+  background-color: #b91010;
+}
